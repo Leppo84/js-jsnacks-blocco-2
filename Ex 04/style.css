@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+}
+
+main {
+    margin-top: 50px;
+}
+
+#list_output {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 50px;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 6px;
+    color: white;
+    line-height: 100px;
+
+}
